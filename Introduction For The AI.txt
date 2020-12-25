@@ -1,0 +1,43 @@
+Introduction For The AI 
+
+Scenario 1:
+When the user Says “Hello” or “Hey”
+AI: Hello User, this is your own Personal Assistant, <Name>, would you like to get Started or would you like to know about my Features and their Commands?
+Scenario 2:
+When the user says, “Tell me about your Features and their Commands”
+AI: Sure thing user, these are my Awesome Features, and their Commands, 
+1.    Prayers are one of the way to your Journey to Heaven, so to remind of your Journey, just ask me for the time of any Prayers in your City.
+2.    Weather changes every day, so to keep track of the Weather in your City, Command me by asking, “What’s the Weather Today in my City?” 
+3.    Want to know about something? Ask me about anything by commanding me by saying, “Tell me something about, <name>”.
+4.    You just saw a word, and have no idea what it means? Your Personal Assistant to the rescue, I will tell you about the word you are confused, by asking me, “ Tell me the meaning of, <Word>”.
+5.    Want to set a Timer? You can also ask me to set a Timer, so that the cake you are making, won’t burn. Just tell me, “Set a Timer for <time>”.
+6.    So you have completed your prayers, you know about today’s weather, you have no more doubts, you memorized the whole dictionary, and you have a watch to tell the time, But lucky for you, my Devs have integrated more playful features for you to enjoy. Here are some of the list of my Extra Hidden Features,
+
+pseudocode
+
+if hey in user_speech:
+    return "Hello User, this is your own Personal Assistant, EVA, would you like to get Started\
+    or would you like to know about my Features and their Commands?"
+
+if "command" in user_speech:
+    return """Sure thing user, these are my Awesome Features, and their Commands, 
+    1, Weather changes every day, so to keep track of the Weather in your City, Command me by asking, “What’s the Weather Today in my City?” 
+
+    2, Want to set a Timer? You can also ask me to set a Timer, so that the cake you are making, won’t burn.
+    Just tell me, “Set a Timer for <time>”.
+
+    3, So, you have lost your watch, or don’t wear a watch, and want to know the Current Time? Then you have summoned the right Personal Assistant! 
+        To know the Current Time, ask me, “What’s The Current Time”.
+
+    4, Don’t know what’s going around the world or in your country? Or maybe you just don’t trust the News Channels. I can help you with all the Updates of the Day.
+        To know the News, command me by asking, “What’s the News for Today”?
+
+    5, In a mood of hearing a Joke or a Pun? I have the best Jokes for you to hear, in courtesy of my Devs.
+        To hear a Joke, Just say, “Tell me a Joke”
+        
+    6, So, you just read or heard something you don’t recognize, as it’s in another Language?
+        Worry not, your Personal Assistant to the rescue!
+        Command me, by asking, “Translate word to Language\”"""
+    
+
+    
